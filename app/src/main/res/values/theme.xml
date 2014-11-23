@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Wenyue" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_wenyue</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Wenyue</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Wenyue</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Wenyue</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Wenyue</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Wenyue</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_wenyue</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_wenyue</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Wenyue</item>
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Wenyue" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/actionbar_bg</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_wenyue</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_wenyue</item>
+        <item name="progressBarStyle">@style/ProgressBar.Wenyue</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Wenyue" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_wenyue</item>
+        <item name="progressBarStyle">@style/ProgressBar.Wenyue</item>
+    </style>
+
+    <style name="PopupMenu.Wenyue" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_wenyue</item>
+    </style>
+
+    <style name="DropDownListView.Wenyue" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_wenyue</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Wenyue" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_wenyue</item>
+    </style>
+
+    <style name="DropDownNav.Wenyue" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_wenyue</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_wenyue</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_wenyue</item>
+    </style>
+
+    <style name="ProgressBar.Wenyue" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_wenyue</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Wenyue" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_wenyue</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Wenyue.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Wenyue</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Wenyue</item>
+    </style>
+
+</resources>
